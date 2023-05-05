@@ -1,0 +1,91 @@
+/*-------------NAVIGATION BAR--------------*/
+
+.enBtn
+{
+	background-color: #B22222;
+	
+	color: white;
+	font-weight: 700;
+	
+	border: 2px solid light-red;
+	border-radius: 5px;
+	
+	padding: 4px 5px 4px 5px;
+	margin: 4px 7px 0px 0px;
+	
+	float: right;
+}
+
+.enBtn:hover
+{
+	background-color: red;
+	color: white;
+}
+
+.grBtn
+{
+	background-color: #ADD8E6;
+	
+	color: white;
+	font-weight: 700;
+	
+	border: 2px solid light-blue;
+	border-radius: 5px;
+	
+	padding: 4px 4px 4px 4px;
+	margin: 4px 7px 0px 0px;
+	
+	float: right;
+}
+
+.grBtn:hover
+{
+	background-color: blue;
+	color: white;
+}
+
+#nav-bar
+ {
+	position : sticky;
+	top : 0;
+	z-index : 10;
+	margin-top: 0px;
+ }
+ 
+img.hotelLogo
+{
+	height: 10%;
+	width: 10%;
+	position:relative;
+	top: -15px;
+}
+
+.nav-link
+ {
+	 color: #DEB887!important;
+	 font-weight: 700;
+	 font-size: 20px;
+ }
+ 
+ .navbar-nav li
+ {
+	 padding: 0px 0px 0px 0px;
+	 margin: 0px 15px 0px 0px;
+ }
+ 
+ .navbar-nav li a
+ {
+	 float: right;
+	 text-align: left;
+ }
+ 
+ #nav-bar ul li a:hover
+ {
+	color: #DC143C!important;
+ }
+ 
+ .navbar 
+ {
+	background: #fff; 
+ }
+ 
